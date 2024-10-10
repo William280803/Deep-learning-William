@@ -1,9 +1,3 @@
-# Pendeteksian Wajah Dengan Python dan Pustaka
-
-## Pendahuluan
-
-Proyek ini bertujuan untuk mengklasifikasikan emosi di wajah seseorang menjadi salah satu dari **Tujuh Kategori/Ekspresi** , menggunakan jaringan saraf konvolusional yang dalam. Model ini dilatih pada kumpulan data **FER-2013** yang dipublikasikan di International Conference on Machine Learning (ICML). Dataset ini terdiri dari 35887 grayscale, gambar wajah berukuran 48x48 dengan **Tujuh Emosi** - marah, jijik, takut, senang, netral, sedih dan terkejut.
-
 ## Dependensi atau alat dan pustaka yang digunakan
 
 - [Python 3](https://www.python.org/downloads/release/python-380/), [OpenCV](https://opencv.org/), [Tensorflow](https://www.tensorflow.org/)
@@ -57,15 +51,3 @@ python main.py --mode display
 - Jaringan mengeluarkan daftar **skor softmax** untuk tujuh kelas emosi.
 
 - Emosi dengan skor maksimal ditampilkan di layar.
-
-## Example Output
-
-![Output](imgs/output.png)
-
-## References Program
-
-- "Challenges in Representation Learning: A report on three machine learning contests." I Goodfellow, D Erhan, PL Carrier, A Courville, M Mirza, B
-  Hamner, W Cukierski, Y Tang, DH Lee, Y Zhou, C Ramaiah, F Feng, R Li,  
-   X Wang, D Athanasakis, J Shawe-Taylor, M Milakov, J Park, R Ionescu,
-  M Popescu, C Grozea, J Bergstra, J Xie, L Romaszko, B Xu, Z Chuang, and
-  Y. Bengio. arXiv 2013.

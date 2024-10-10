@@ -51,7 +51,7 @@ val_dir = 'data/test'
 num_train = 28709
 num_val = 7178
 batch_size = 64
-num_epoch = 1
+num_epoch = 50
 
 train_datagen = ImageDataGenerator(rescale=1./255)
 val_datagen = ImageDataGenerator(rescale=1./255)
@@ -95,7 +95,7 @@ if mode == "train":
         validation_steps=num_val // batch_size
     )
     plot_model_history(model_info)
-    model.save_weights('model.h5')  # Save weights after training
+    model.save_weights('model.weights.h5')
 
 # Display mode
 elif mode == "display":
@@ -111,8 +111,7 @@ elif mode == "display":
     # else:
     #     print("Model weights file not found. Please train the model first.")
 
-    model.load_weights('model.h5')
-
+    model.load_weights('model.weights.h5')
     # Prevent OpenCL usage and unnecessary logging
     cv2.ocl.setUseOpenCL(False)
 
