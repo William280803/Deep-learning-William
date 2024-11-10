@@ -34,8 +34,6 @@ python main.py --mode display
 
 - Penerapan ini secara default mendeteksi emosi pada semua wajah di umpan webcam. Dengan CNN 4-lapis sederhana, akurasi pengujian mencapai 95% dalam 100 epoch.
 
-![Accuracy plot](imgs/accuracy.png)
-
 ## Persiapan Data (opsional jika ingin melatih data dengan kumpulan data sendiri)
 
 - The [dataset FER2013 asli dalam Kaggle](https://www.kaggle.com/deadskull7/fer2013) tersedia sebagai file csv tunggal. Saya telah mengonversi menjadi kumpulan data gambar dalam format PNG untuk pelatihan / pengujian dan memberikan ini sebagai kumpulan data di bagian sebelumnya.
