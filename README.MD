@@ -6,7 +6,7 @@
 
 ## Penggunaan Dasar
 
-Repositori saat ini kompatibel dengan `tensorflow-2.3.1` dan menggunakan API Keras menggunakan `tensorflow.keras` pustaka.
+Repositori saat ini kompatibel dengan `tensorflow` dan menggunakan API Keras menggunakan `tensorflow.keras` pustaka.
 
 - Download the FER-2013 dataset from [here](https://drive.google.com/file/d/1X60B-uR3NtqPd4oosdotpbDgy8KOfUdr/view?usp=sharing) and unzip it inside the `src` folder. This will create the folder `data`.
 
@@ -32,7 +32,7 @@ python main.py --mode display
   - `model.h5` (file)
   - `requirements.txt` (file)
 
-- Penerapan ini secara default mendeteksi emosi pada semua wajah di umpan webcam. Dengan CNN 4-lapis sederhana, akurasi pengujian mencapai 63,2% dalam 50 epoch.
+- Penerapan ini secara default mendeteksi emosi pada semua wajah di umpan webcam. Dengan CNN 4-lapis sederhana, akurasi pengujian mencapai 95% dalam 100 epoch.
 
 ![Accuracy plot](imgs/accuracy.png)
 
