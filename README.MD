@@ -8,8 +8,6 @@
 
 Repositori saat ini kompatibel dengan `tensorflow` dan menggunakan API Keras menggunakan `tensorflow.keras` pustaka.
 
-- Download the FER-2013 dataset from [here](https://drive.google.com/file/d/1X60B-uR3NtqPd4oosdotpbDgy8KOfUdr/view?usp=sharing) and unzip it inside the `src` folder. This will create the folder `data`.
-
 - Jika ingin melatih kumpulan data (model), ketikan:
 
 ```bash
